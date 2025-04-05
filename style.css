@@ -1,7 +1,7 @@
-/* Osnovni stilovi za veće zaslone (laptop i širi zasloni) */
+/* Osnovni stilovi za veće zaslone */
 .octopus-container {
   position: relative;
-  width: 400px; /* Optimalna veličina za laptop */
+  width: 400px;
   height: 400px;
   margin: auto;
   display: flex;
@@ -19,20 +19,23 @@
 
 .arm {
   position: absolute;
-  width: 120px; /* Širina kućica za laptop */
+  width: 120px;
   height: 40px;
   line-height: 40px;
   background-color: rgba(0, 123, 255, 0.8);
   color: white;
-  font-size: 14px; /* Veći font za laptop */
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   border-radius: 8px;
   z-index: 2;
   transition: transform 0.3s, background-color 0.3s;
+  word-wrap: break-word; /* Razbijanje dugačkih riječi na novi red */
+  text-overflow: ellipsis; /* Dodavanje ... ako tekst izlazi iz okvira */
+  overflow: hidden; /* Sprječavanje prelaska teksta izvan kućice */
 }
 
-/* Stilovi za manje zaslone (mobiteli) */
+/* Stilovi za manje zaslone (mobitele) */
 @media (max-width: 600px) {
   .octopus-container {
     width: 300px; /* Manja hobotnica za mobilne uređaje */
@@ -47,7 +50,7 @@
   }
 
   .arm.tentacle1 {
-    top: -20%; /* Prilagođeno pozicioniranje kućica */
+    top: -10%; /* Pomicanje Tata Neno niže */
     left: 50%;
     transform: translate(-50%, 0);
   }
@@ -89,7 +92,7 @@
   }
 }
 
-/* Stilovi za veće ekrane (veliki laptopi i desktop, >1024px) */
+/* Stilovi za velike zaslone */
 @media (min-width: 1024px) {
   .octopus-container {
     width: 500px; /* Veća hobotnica za veće zaslone */
@@ -104,44 +107,8 @@
   }
 
   .arm.tentacle1 {
-    top: -10%;
+    top: -10%; /* Manje prilagodbe za Tata Neno na velikim zaslonima */
     left: 50%;
     transform: translate(-50%, 0);
-  }
-
-  .arm.tentacle2 {
-    top: 10%;
-    right: -15%;
-  }
-
-  .arm.tentacle3 {
-    top: 50%;
-    right: -20%;
-  }
-
-  .arm.tentacle4 {
-    bottom: 10%;
-    right: -15%;
-  }
-
-  .arm.tentacle5 {
-    bottom: -10%;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
-
-  .arm.tentacle6 {
-    bottom: 10%;
-    left: -15%;
-  }
-
-  .arm.tentacle7 {
-    top: 50%;
-    left: -20%;
-  }
-
-  .arm.tentacle8 {
-    top: 10%;
-    left: -15%;
   }
 }
