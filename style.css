@@ -1,34 +1,22 @@
-.octopus-container {
+<div class="octopus">
+  <div class="arm" style="transform: rotate(45deg);">Tata Neno</div>
+  <!-- Ponavljanje za ostale krakove -->
+</div>
+<style>
+.octopus {
   position: relative;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.octopus-img {
   width: 300px;
-  max-width: 80%;
+  height: 300px;
+  background-image: url('hobotnica.png');
 }
-
-.tentacle {
+.arm {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 4px 8px;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  transition: 0.3s;
 }
-
-.tentacle1 { top: 20%; left: 10%; }
-.tentacle2 { top: 10%; left: 30%; }
-.tentacle3 { top: 5%;  left: 50%; }
-.tentacle4 { top: 10%; right: 30%; }
-.tentacle5 { top: 20%; right: 10%; }
-.tentacle6 { bottom: 30%; left: 15%; }
-.tentacle7 { bottom: 25%; right: 15%; }
-.tentacle8 { bottom: 10%; left: 50%; }
-
-.tentacle a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+.arm:hover {
+  transform: scale(1.1);
 }
+</style>
