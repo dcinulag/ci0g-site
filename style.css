@@ -1,7 +1,7 @@
-/* Osnovni stilovi za veće zaslone */
+/* Osnovni stilovi za veće zaslone (laptop i širi zasloni) */
 .octopus-container {
   position: relative;
-  width: 400px;
+  width: 400px; /* Optimalna veličina za laptop */
   height: 400px;
   margin: auto;
   display: flex;
@@ -19,12 +19,12 @@
 
 .arm {
   position: absolute;
-  width: 120px;
+  width: 120px; /* Širina kućica za laptop */
   height: 40px;
   line-height: 40px;
   background-color: rgba(0, 123, 255, 0.8);
   color: white;
-  font-size: 14px;
+  font-size: 14px; /* Veći font za laptop */
   font-weight: bold;
   text-align: center;
   border-radius: 8px;
@@ -32,7 +32,7 @@
   transition: transform 0.3s, background-color 0.3s;
 }
 
-/* Stilovi za manje zaslone */
+/* Stilovi za manje zaslone (mobiteli) */
 @media (max-width: 600px) {
   .octopus-container {
     width: 300px; /* Manja hobotnica za mobilne uređaje */
@@ -86,5 +86,62 @@
   .arm.tentacle8 {
     top: 5%;
     left: -10%;
+  }
+}
+
+/* Stilovi za veće ekrane (veliki laptopi i desktop, >1024px) */
+@media (min-width: 1024px) {
+  .octopus-container {
+    width: 500px; /* Veća hobotnica za veće zaslone */
+    height: 500px;
+  }
+
+  .arm {
+    width: 140px; /* Veće kućice */
+    height: 50px;
+    font-size: 16px; /* Veći font za preglednost */
+    line-height: 50px;
+  }
+
+  .arm.tentacle1 {
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .arm.tentacle2 {
+    top: 10%;
+    right: -15%;
+  }
+
+  .arm.tentacle3 {
+    top: 50%;
+    right: -20%;
+  }
+
+  .arm.tentacle4 {
+    bottom: 10%;
+    right: -15%;
+  }
+
+  .arm.tentacle5 {
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .arm.tentacle6 {
+    bottom: 10%;
+    left: -15%;
+  }
+
+  .arm.tentacle7 {
+    top: 50%;
+    left: -20%;
+  }
+
+  .arm.tentacle8 {
+    top: 10%;
+    left: -15%;
   }
 }
