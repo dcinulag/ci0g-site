@@ -30,6 +30,10 @@
   border-radius: 8px;
   z-index: 2;
   transition: transform 0.3s, background-color 0.3s;
+  word-wrap: break-word; /* Omogućuje razbijanje dugačkih riječi */
+  text-overflow: ellipsis; /* Dodavanje ... ako tekst izlazi iz okvira */
+  overflow: hidden; /* Sprječavanje izlaska teksta izvan kućice */
+  white-space: normal; /* Omogućuje tekst u više redova */
 }
 
 /* Stilovi za manje zaslone (mobitele) */
@@ -43,7 +47,7 @@
     width: 90px; /* Manje kućice */
     height: 30px;
     font-size: 12px; /* Manji font za bolju preglednost */
-    line-height: 30px;
+    line-height: 15px; /* Prilagodba za više redova teksta */
   }
 
   .arm.tentacle1 {
@@ -68,7 +72,7 @@
   }
 
   .arm.tentacle5 {
-    bottom: -25%; /* Lagano podizanje kućice broj 5 */
+    bottom: -15%; /* Podiže kućicu broj 5 */
     left: 50%;
     transform: translate(-50%, 0);
   }
@@ -89,7 +93,7 @@
   }
 }
 
-/* Stilovi za velike zaslone (laptopi i širi) */
+/* Stilovi za velike zaslone (laptop i širi) */
 @media (min-width: 1024px) {
   .octopus-container {
     width: 500px; /* Veća hobotnica za veće zaslone */
@@ -104,7 +108,7 @@
   }
 
   .arm.tentacle1 {
-    top: -10%; /* Pomicanje Tata Neno niže */
+    top: -10%; /* Manje prilagodbe za Tata Neno na velikim zaslonima */
     left: 50%;
     transform: translate(-50%, 0);
   }
