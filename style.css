@@ -1,3 +1,4 @@
+/* Osnovna postavka hobotnice */
 .octopus {
   position: relative;
   width: 300px;
@@ -7,6 +8,7 @@
   margin: auto;
 }
 
+/* Stil za tematske kućice */
 .arm {
   position: absolute;
   transform-origin: center;
@@ -27,15 +29,16 @@
   cursor: pointer;
 }
 
-/* Krakovi pozicionirani oko hobotnice */
+/* Specifično pozicioniranje kućica - vrhovi krakova usmjereni prema njima */
 .arm.tentacle1 {
-  top: 10%;
-  left: 40%;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .arm.tentacle2 {
-  top: 20%;
-  right: 10%;
+  top: 15%;
+  right: 15%;
 }
 
 .arm.tentacle3 {
@@ -44,18 +47,19 @@
 }
 
 .arm.tentacle4 {
-  bottom: 10%;
-  right: 20%;
+  bottom: 20%;
+  right: 15%;
 }
 
 .arm.tentacle5 {
-  bottom: 20%;
-  left: 20%;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .arm.tentacle6 {
-  bottom: 10%;
-  left: 5%;
+  bottom: 15%;
+  left: 15%;
 }
 
 .arm.tentacle7 {
@@ -65,10 +69,10 @@
 
 .arm.tentacle8 {
   top: 10%;
-  left: 5%;
+  left: 15%;
 }
 
-/* Dodavanje animacije tijekom ulaska na stranicu */
+/* Animacija za elegantno pojavljivanje */
 .arm {
   opacity: 0;
   animation: fadeIn 1.5s ease-in forwards;
