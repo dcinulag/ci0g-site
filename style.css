@@ -1,44 +1,52 @@
-/* Osnovna postavka hobotnice */
-.octopus {
+ .octopus-container {
   position: relative;
-  width: 300px;
-  height: 300px;
-  background-image: url('hobotnica.jpg');
-  background-size: cover;
+  width: 500px; /* Povećanje veličine za bolju čitljivost */
+  height: 500px; /* Povećanje veličine za bolju čitljivost */
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Stil za tematske kućice */
+.octopus-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; /* Osigurava da je hobotnica u pozadini */
+}
+
+/* Krakovi hobotnice */
 .arm {
   position: absolute;
-  transform-origin: center;
-  padding: 10px;
-  border-radius: 8px;
-  background-color: rgba(0, 123, 255, 0.8); /* Plavi efekt za početak */
+  width: 80px; /* Širina kućice */
+  height: 40px; /* Visina kućice */
+  text-align: center;
+  line-height: 40px; /* Vertikalno centriranje teksta */
+  background-color: rgba(0, 123, 255, 0.8); /* Plava boja za kontrast */
   color: white;
   font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  border-radius: 8px;
+  z-index: 2; /* Osigurava da kućice budu iznad hobotnice */
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 .arm:hover {
-  transform: scale(1.2); /* Povećanje prilikom prelaska mišem */
-  background-color: rgba(255, 193, 7, 0.9); /* Promjena boje prilikom hovera */
-  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.6); /* Dodavanje sjene */
+  transform: scale(1.2);
+  background-color: rgba(255, 193, 7, 0.9);
   cursor: pointer;
 }
 
-/* Specifično pozicioniranje kućica - vrhovi krakova usmjereni prema njima */
+/* Pozicioniranje krakova prema kućicama */
 .arm.tentacle1 {
-  top: 5%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
 .arm.tentacle2 {
-  top: 15%;
-  right: 15%;
+  top: 20%;
+  right: 20%;
 }
 
 .arm.tentacle3 {
@@ -48,7 +56,7 @@
 
 .arm.tentacle4 {
   bottom: 20%;
-  right: 15%;
+  right: 20%;
 }
 
 .arm.tentacle5 {
@@ -58,8 +66,8 @@
 }
 
 .arm.tentacle6 {
-  bottom: 15%;
-  left: 15%;
+  bottom: 20%;
+  left: 20%;
 }
 
 .arm.tentacle7 {
@@ -68,23 +76,6 @@
 }
 
 .arm.tentacle8 {
-  top: 10%;
-  left: 15%;
-}
-
-/* Animacija za elegantno pojavljivanje */
-.arm {
-  opacity: 0;
-  animation: fadeIn 1.5s ease-in forwards;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  top: 20%;
+  left: 20%;
 }
