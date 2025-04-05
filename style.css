@@ -1,6 +1,6 @@
 .octopus-container {
   position: relative;
-  width: 400px; /* Povećana veličina za bolje razmjere */
+  width: 400px; /* Centrirana i uravnotežena hobotnica */
   height: 400px;
   margin: auto;
   display: flex;
@@ -13,69 +13,73 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1; /* Hobotnica u pozadini */
+  z-index: 1; /* Pozadina - hobotnica */
 }
 
 /* Kućice - stilovi */
 .arm {
   position: absolute;
-  width: 100px; /* Veće kućice za bolju vidljivost */
-  height: 50px;
-  line-height: 50px; /* Tekst centriran vertikalno */
+  width: 120px; /* Širina kućice za jednolinijske nazive */
+  height: 40px; /* Optimalna visina za tekst u jednom retku */
+  line-height: 40px; /* Vertikalno centriranje teksta */
   background-color: rgba(0, 123, 255, 0.8); /* Plava boja */
   color: white;
+  font-size: 14px; /* Optimalna veličina teksta */
   font-weight: bold;
   text-align: center;
   border-radius: 8px;
   z-index: 2; /* Kućice iznad hobotnice */
   transition: transform 0.3s, background-color 0.3s;
+  overflow: hidden; /* Izbjegavanje prelijevanja teksta */
+  white-space: nowrap; /* Sprječavanje prelaska u više redova */
+  text-overflow: ellipsis; /* Dodavanje "..." ako tekst bude predugačak */
 }
 
 .arm:hover {
-  transform: scale(1.1); /* Lagano povećanje prilikom hovera */
-  background-color: rgba(255, 193, 7, 0.9); /* Promjena boje */
+  transform: scale(1.1);
+  background-color: rgba(255, 193, 7, 0.9); /* Promjena boje na hover */
   cursor: pointer;
 }
 
-/* Pozicioniranje kućica izvan hobotnice i poravnanje s vrhovima krakova */
+/* Pozicioniranje kućica izvan hobotnice i usklađivanje s krakovima */
 .arm.tentacle1 {
-  top: -10%; /* Iznad hobotnice */
+  top: -15%; /* Iznad hobotnice */
   left: 50%;
   transform: translate(-50%, 0);
 }
 
 .arm.tentacle2 {
-  top: 10%;
-  right: -15%; /* Desno od hobotnice */
+  top: 5%;
+  right: -20%; /* Desno od hobotnice */
 }
 
 .arm.tentacle3 {
   top: 50%;
-  right: -20%; /* Dolje desno */
+  right: -25%; /* Dolje desno */
 }
 
 .arm.tentacle4 {
   bottom: 10%;
-  right: -15%;
+  right: -20%;
 }
 
 .arm.tentacle5 {
-  bottom: -10%; /* Ispod hobotnice */
+  bottom: -15%; /* Ispod hobotnice */
   left: 50%;
   transform: translate(-50%, 0);
 }
 
 .arm.tentacle6 {
   bottom: 10%;
-  left: -15%; /* Dolje lijevo */
+  left: -20%; /* Dolje lijevo */
 }
 
 .arm.tentacle7 {
   top: 50%;
-  left: -20%; /* Gore lijevo */
+  left: -25%; /* Gore lijevo */
 }
 
 .arm.tentacle8 {
-  top: 10%;
-  left: -15%;
+  top: 5%;
+  left: -20%;
 }
