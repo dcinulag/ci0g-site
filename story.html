@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crtica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="story"></main>
+
+    <script>
+        async function loadStory() {
+            const params = new URLSearchParams(window.location.search);
+            const file = params.get("file");
+
+            if (!file) return;
+
+            const response = await fetch(file);
+            const text = await response.text();
+            document.getElementById("story").innerHTML =
+                `<article><pre>${text}</pre></article>`;
+        }
+
+        loadStory();
+    </script>
+</body>
+</html>
