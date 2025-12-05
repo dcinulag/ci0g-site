@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     stories.forEach(story => {
         const article = document.createElement("article");
-        article.innerHTML = `<h3><a href="${story.file}">${story.title}</a></h3>`;
+        article.innerHTML = `<h3><a href="story.html?file=${story.file}">${story.title}</a></h3>`;
+
         storiesContainer.appendChild(article);
     });
 });
