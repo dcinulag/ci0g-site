@@ -34,7 +34,7 @@
   z-index: 1;
 }
 
-/* ====== KUĆICE NA KRAKOVIMA ====== */
+/* ====== KUĆICE ====== */
 .arm {
   position: absolute;
   width: 120px;
@@ -68,19 +68,19 @@
   height: 100%;
 }
 
-/* ====== POZICIONIRANJE — DESNO (1–4) / LIJEVO (5–8) ====== */
+/* ====== POZICIONIRANJE — PORAVNATO UZ KRAKOVE ====== */
 
-/* DESNA STRANA — kućice 1–4 */
-.arm.tentacle1 { top: 5%; right: -20%; }
-.arm.tentacle2 { top: 30%; right: -25%; }
-.arm.tentacle3 { top: 55%; right: -25%; }
-.arm.tentacle4 { bottom: 5%; right: -20%; }
+/* DESNA STRANA — 1–4 */
+.arm.tentacle1 { top: 8%; right: -15%; }
+.arm.tentacle2 { top: 32%; right: -18%; }
+.arm.tentacle3 { top: 58%; right: -18%; }
+.arm.tentacle4 { bottom: 8%; right: -15%; }
 
-/* LIJEVA STRANA — kućice 5–8 */
-.arm.tentacle5 { bottom: 5%; left: -20%; }
-.arm.tentacle6 { top: 55%; left: -25%; }
-.arm.tentacle7 { top: 30%; left: -25%; }
-.arm.tentacle8 { top: 5%; left: -20%; }
+/* LIJEVA STRANA — 5–8 */
+.arm.tentacle5 { bottom: 8%; left: -15%; }
+.arm.tentacle6 { top: 58%; left: -18%; }
+.arm.tentacle7 { top: 32%; left: -18%; }
+.arm.tentacle8 { top: 8%; left: -15%; }
 
 /* ====== MOBITEL ====== */
 @media (max-width: 600px) {
@@ -99,16 +99,16 @@
   }
 
   /* DESNO 1–4 */
-  .arm.tentacle1 { top: 0%; right: -15%; }
-  .arm.tentacle2 { top: 28%; right: -18%; }
-  .arm.tentacle3 { top: 55%; right: -18%; }
-  .arm.tentacle4 { bottom: 0%; right: -15%; }
+  .arm.tentacle1 { top: 5%; right: -12%; }
+  .arm.tentacle2 { top: 30%; right: -15%; }
+  .arm.tentacle3 { top: 55%; right: -15%; }
+  .arm.tentacle4 { bottom: 5%; right: -12%; }
 
   /* LIJEVO 5–8 */
-  .arm.tentacle5 { bottom: 0%; left: -15%; }
-  .arm.tentacle6 { top: 55%; left: -18%; }
-  .arm.tentacle7 { top: 28%; left: -18%; }
-  .arm.tentacle8 { top: 0%; left: -15%; }
+  .arm.tentacle5 { bottom: 5%; left: -12%; }
+  .arm.tentacle6 { top: 55%; left: -15%; }
+  .arm.tentacle7 { top: 30%; left: -15%; }
+  .arm.tentacle8 { top: 5%; left: -12%; }
 }
 
 /* ====== VELIKI ZASLON ====== */
@@ -127,14 +127,14 @@
   }
 
   /* DESNO 1–4 */
-  .arm.tentacle1 { top: 5%; right: -22%; }
-  .arm.tentacle2 { top: 30%; right: -28%; }
-  .arm.tentacle3 { top: 55%; right: -28%; }
-  .arm.tentacle4 { bottom: 5%; right: -22%; }
+  .arm.tentacle1 { top: 8%; right: -18%; }
+  .arm.tentacle2 { top: 32%; right: -22%; }
+  .arm.tentacle3 { top: 58%; right: -22%; }
+  .arm.tentacle4 { bottom: 8%; right: -18%; }
 
   /* LIJEVO 5–8 */
-  .arm.tentacle5 { bottom: 5%; left: -22%; }
-  .arm.tentacle6 { top: 55%; left: -28%; }
-  .arm.tentacle7 { top: 30%; left: -28%; }
-  .arm.tentacle8 { top: 5%; left: -22%; }
+  .arm.tentacle5 { bottom: 8%; left: -18%; }
+  .arm.tentacle6 { top: 58%; left: -22%; }
+  .arm.tentacle7 { top: 32%; left: -22%; }
+  .arm.tentacle8 { top: 8%; left: -18%; }
 }
