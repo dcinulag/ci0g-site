@@ -20,7 +20,7 @@
   position: relative;
   width: 400px;
   height: 400px;
-  margin: 20px auto 0 auto; /* dodan razmak ispod naslova */
+  margin: 20px auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,6 @@
 .arm {
   position: absolute;
   width: 120px;
-  height: auto;
   min-height: 40px;
   padding: 4px 8px;
 
@@ -60,8 +59,32 @@
   overflow: hidden;
 }
 
+/* Linkovi unutar kućica */
+.arm a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ====== POZICIONIRANJE — DESNO (1–4) / LIJEVO (5–8) ====== */
+
+/* DESNA STRANA — kućice 1–4 */
+.arm.tentacle1 { top: 5%; right: -20%; }
+.arm.tentacle2 { top: 30%; right: -25%; }
+.arm.tentacle3 { top: 55%; right: -25%; }
+.arm.tentacle4 { bottom: 5%; right: -20%; }
+
+/* LIJEVA STRANA — kućice 5–8 */
+.arm.tentacle5 { bottom: 5%; left: -20%; }
+.arm.tentacle6 { top: 55%; left: -25%; }
+.arm.tentacle7 { top: 30%; left: -25%; }
+.arm.tentacle8 { top: 5%; left: -20%; }
+
 /* ====== MOBITEL ====== */
 @media (max-width: 600px) {
+
   .octopus-container {
     width: 300px;
     height: 300px;
@@ -75,18 +98,22 @@
     padding: 3px 6px;
   }
 
-  .arm.tentacle1 { top: -10%; left: 50%; transform: translate(-50%, 0); }
-  .arm.tentacle2 { top: 5%; right: -10%; }
-  .arm.tentacle3 { top: 50%; right: -15%; }
-  .arm.tentacle4 { bottom: 5%; right: -10%; }
-  .arm.tentacle5 { bottom: -15%; left: 50%; transform: translate(-50%, 0); }
-  .arm.tentacle6 { bottom: 5%; left: -10%; }
-  .arm.tentacle7 { top: 50%; left: -15%; }
-  .arm.tentacle8 { top: 5%; left: -10%; }
+  /* DESNO 1–4 */
+  .arm.tentacle1 { top: 0%; right: -15%; }
+  .arm.tentacle2 { top: 28%; right: -18%; }
+  .arm.tentacle3 { top: 55%; right: -18%; }
+  .arm.tentacle4 { bottom: 0%; right: -15%; }
+
+  /* LIJEVO 5–8 */
+  .arm.tentacle5 { bottom: 0%; left: -15%; }
+  .arm.tentacle6 { top: 55%; left: -18%; }
+  .arm.tentacle7 { top: 28%; left: -18%; }
+  .arm.tentacle8 { top: 0%; left: -15%; }
 }
 
 /* ====== VELIKI ZASLON ====== */
 @media (min-width: 1024px) {
+
   .octopus-container {
     width: 500px;
     height: 500px;
@@ -99,19 +126,15 @@
     padding: 6px 10px;
   }
 
-  .arm.tentacle1 { top: -10%; left: 50%; transform: translate(-50%, 0); }
-  .arm.tentacle2 { top: 10%; right: -15%; }
-  .arm.tentacle3 { top: 50%; right: -20%; }
-  .arm.tentacle4 { bottom: 10%; right: -15%; }
-  .arm.tentacle5 { bottom: -10%; left: 50%; transform: translate(-50%, 0); }
-  .arm.tentacle6 { bottom: 10%; left: -15%; }
-  .arm.tentacle7 { top: 50%; left: -20%; }
-  .arm.tentacle8 { top: 10%; left: -15%; }
-}
-.arm a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  height: 100%;
+  /* DESNO 1–4 */
+  .arm.tentacle1 { top: 5%; right: -22%; }
+  .arm.tentacle2 { top: 30%; right: -28%; }
+  .arm.tentacle3 { top: 55%; right: -28%; }
+  .arm.tentacle4 { bottom: 5%; right: -22%; }
+
+  /* LIJEVO 5–8 */
+  .arm.tentacle5 { bottom: 5%; left: -22%; }
+  .arm.tentacle6 { top: 55%; left: -28%; }
+  .arm.tentacle7 { top: 30%; left: -28%; }
+  .arm.tentacle8 { top: 5%; left: -22%; }
 }
