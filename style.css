@@ -11,7 +11,7 @@ body {
 }
 
 .main-wrapper {
-    max-width: 1100px;   /* usklađeno s .categories */
+    max-width: 1100px;   /* usklađeno s octopus-wrapper */
     margin: 0 auto;
     padding: 20px;
 }
@@ -24,14 +24,22 @@ body {
     z-index: 10;
 }
 
+/* ————————————————
+   OKVIR ZA HOBOTNICU + KUĆICE
+   ———————————————— */
+
+.octopus-wrapper {
+    position: relative;
+    width: 600px;      /* ključ: okvir prati hobotnicu */
+    margin: 0 auto;
+}
+
 /* HOBOTNICA */
-.octopus-img {
+.octopus-wrapper img {
     width: 320px;
     height: auto;
-    margin-bottom: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     position: relative;
     z-index: 1;
 }
@@ -41,10 +49,11 @@ body {
    ———————————————— */
 
 .categories {
-    position: relative;
-    width: 1100px;   /* isti okvir kao main-wrapper */
-    margin: 0 auto;
-    height: 520px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;      /* isti okvir kao octopus-wrapper */
+    height: 500px;     /* dovoljno prostora za sve krakove */
 }
 
 .categories a {
@@ -66,20 +75,21 @@ body {
 }
 
 /* ————————————————
-   POZICIJE KUĆICA — USKLAĐENO
+   POZICIJE KUĆICA — PRVA STABILNA VERZIJA
+   (sada će se ponašati predvidljivo)
    ———————————————— */
 
-.cat1 { top: 0px; left: 12%; }
-.cat2 { top: 0px; right: 12%; }
+.cat1 { top: 0px; left: 20%; }
+.cat2 { top: 0px; right: 20%; }
 
-.cat3 { top: 150px; left: 2%; }
-.cat4 { top: 150px; right: 2%; }
+.cat3 { top: 150px; left: 5%; }
+.cat4 { top: 150px; right: 5%; }
 
-.cat5 { top: 290px; left: 10%; }
-.cat6 { top: 290px; right: 10%; }
+.cat5 { top: 280px; left: 15%; }
+.cat6 { top: 280px; right: 15%; }
 
-.cat7 { top: 390px; left: 22%; }
-.cat8 { top: 390px; right: 22%; }
+.cat7 { top: 380px; left: 28%; }
+.cat8 { top: 380px; right: 28%; }
 
 /* ————————————————
    FOOTER
