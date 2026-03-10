@@ -90,29 +90,56 @@ footer {
     border-color: #999;
 }
 
-/* POZICIJE — PRILAGOĐENE TVOJOJ SLICI HOBOTNICE */
+/* ————————————————
+   KUĆICE UZ KRAKOVE – FINO PODEŠENO
+   ———————————————— */
 
 /* 1 — gornji lijevi krak */
-.cat1 { top: 10px; left: 40px; }
+.cat1 {
+    top: -10px;
+    left: 22%;
+}
 
 /* 2 — gornji desni krak */
-.cat2 { top: 10px; right: 40px; }
+.cat2 {
+    top: -10px;
+    right: 22%;
+}
 
 /* 3 — srednji lijevi krak */
-.cat3 { top: 130px; left: 0px; }
+.cat3 {
+    top: 110px;
+    left: 5%;
+}
 
 /* 4 — srednji desni krak */
-.cat4 { top: 130px; right: 0px; }
+.cat4 {
+    top: 110px;
+    right: 5%;
+}
 
 /* 5 — donji lijevi krak */
-.cat5 { top: 250px; left: 40px; }
+.cat5 {
+    top: 230px;
+    left: 12%;
+}
 
 /* 6 — donji desni krak */
-.cat6 { top: 250px; right: 40px; }
+.cat6 {
+    top: 230px;
+    right: 12%;
+}
 
-/* 7 — donji lijevi (drugi krak) */
-.cat7 { top: 330px; left: 120px; }
+/* 7 — donji lijevi donji krak */
+.cat7 {
+    top: 330px;
+    left: 28%;
+}
 
-/* 8 — donji desni (drugi krak) */
-.cat8 { top: 330px; right: 120px; }
+/* 8 — donji desni donji krak */
+.cat8 {
+    top: 330px;
+    right: 28%;
+}
+
 
