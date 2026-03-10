@@ -30,7 +30,7 @@ body {
 
 .octopus-wrapper {
     position: relative;
-    width: 900px;      /* KLJUČNO: dovoljno široko za krakove */
+    width: 900px;      /* dovoljno široko za krakove */
     margin: 0 auto;
 }
 
@@ -43,12 +43,6 @@ body {
     position: relative;
     z-index: 1;
 }
- .octopus-wrapper img {
-    position: relative;
-    left: 20px; /* pomakni dok hobotnica ne bude točno u sredini */
-}
-
-
 
 /* ————————————————
    KUĆICE OKO HOBOTNICE
@@ -59,7 +53,7 @@ body {
     top: 0;
     left: 0;
     width: 900px;      /* isti okvir kao octopus-wrapper */
-    height: 600px;     /* više prostora dolje */
+    height: 600px;     /* dovoljno prostora za sve krakove */
 }
 
 .categories a {
