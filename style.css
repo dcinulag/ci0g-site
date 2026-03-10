@@ -40,9 +40,9 @@ body {
 
 .categories {
     position: relative;
-    width: 1000px;   /* dovoljno široko da kućice dođu do krakova */
+    width: 1100px;   /* dovoljno široko da kućice dođu do krakova */
     margin: 0 auto;
-    height: 460px;   /* prostor oko hobotnice */
+    height: 520px;   /* više prostora dolje */
 }
 
 .categories a {
@@ -64,55 +64,55 @@ body {
 }
 
 /* ————————————————
-   POZICIJE KUĆICA — NOVO, PRECIZNO
+   POZICIJE KUĆICA — PRECIZNO
    ———————————————— */
 
 /* 1 — gornji lijevi krak */
 .cat1 {
     top: 0px;
-    left: 14%;
+    left: 8%;
 }
 
 /* 2 — gornji desni krak */
 .cat2 {
     top: 0px;
-    right: 14%;
+    right: 8%;
 }
 
 /* 3 — srednji lijevi krak */
 .cat3 {
-    top: 135px;
-    left: 4%;
+    top: 160px;
+    left: -2%;
 }
 
 /* 4 — srednji desni krak */
 .cat4 {
-    top: 135px;
-    right: 4%;
+    top: 160px;
+    right: -2%;
 }
 
 /* 5 — donji lijevi krak */
 .cat5 {
-    top: 260px;
-    left: 12%;
+    top: 300px;
+    left: 6%;
 }
 
 /* 6 — donji desni krak */
 .cat6 {
-    top: 260px;
-    right: 12%;
+    top: 300px;
+    right: 6%;
 }
 
 /* 7 — donji lijevi najdonji krak */
 .cat7 {
-    top: 360px;
-    left: 26%;
+    top: 400px;
+    left: 20%;
 }
 
 /* 8 — donji desni najdonji krak */
 .cat8 {
-    top: 360px;
-    right: 26%;
+    top: 400px;
+    right: 20%;
 }
 
 /* ————————————————
