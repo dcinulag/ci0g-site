@@ -11,7 +11,7 @@ body {
 }
 
 .main-wrapper {
-    max-width: 1100px;   /* usklađeno s octopus-wrapper */
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -76,7 +76,6 @@ body {
 
 /* ————————————————
    POZICIJE KUĆICA — PRVA STABILNA VERZIJA
-   (sada će se ponašati predvidljivo)
    ———————————————— */
 
 .cat1 { top: 0px; left: 20%; }
