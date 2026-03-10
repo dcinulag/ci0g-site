@@ -91,55 +91,53 @@ footer {
 }
 
 /* ————————————————
-   KUĆICE UZ KRAKOVE – FINO PODEŠENO
+   KUĆICE UZ KRAKOVE — NOVO, PRECIZNO
    ———————————————— */
 
 /* 1 — gornji lijevi krak */
 .cat1 {
-    top: -10px;
-    left: 22%;
+    top: 20px;
+    left: 18%;
 }
 
 /* 2 — gornji desni krak */
 .cat2 {
-    top: -10px;
-    right: 22%;
+    top: 20px;
+    right: 18%;
 }
 
-/* 3 — srednji lijevi krak */
+/* 3 — srednji lijevi krak (blizu velikog lijevog kraka) */
 .cat3 {
-    top: 110px;
-    left: 5%;
+    top: 140px;
+    left: 4%;
 }
 
 /* 4 — srednji desni krak */
 .cat4 {
-    top: 110px;
-    right: 5%;
+    top: 140px;
+    right: 4%;
 }
 
-/* 5 — donji lijevi krak */
+/* 5 — donji lijevi krak (onaj koji ide prema dolje) */
 .cat5 {
-    top: 230px;
+    top: 255px;
     left: 12%;
 }
 
 /* 6 — donji desni krak */
 .cat6 {
-    top: 230px;
+    top: 255px;
     right: 12%;
 }
 
-/* 7 — donji lijevi donji krak */
+/* 7 — donji lijevi najdonji krak */
 .cat7 {
-    top: 330px;
-    left: 28%;
+    top: 345px;
+    left: 26%;
 }
 
-/* 8 — donji desni donji krak */
+/* 8 — donji desni najdonji krak */
 .cat8 {
-    top: 330px;
-    right: 28%;
+    top: 345px;
+    right: 26%;
 }
-
-
