@@ -61,3 +61,58 @@ footer {
     padding: 20px;
     color: #666;
 }
+/* ————————————————
+   KUĆICE OKO HOBOTNICE
+   ———————————————— */
+
+.categories {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    height: 420px; /* prostor oko hobotnice */
+}
+
+.categories a {
+    position: absolute;
+    padding: 6px 10px;
+    background: white;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.2s;
+    width: max-content;
+}
+
+.categories a:hover {
+    background: #eee;
+    border-color: #999;
+}
+
+/* POZICIJE — PRILAGOĐENE TVOJOJ SLICI HOBOTNICE */
+
+/* 1 — gornji lijevi krak */
+.cat1 { top: 10px; left: 40px; }
+
+/* 2 — gornji desni krak */
+.cat2 { top: 10px; right: 40px; }
+
+/* 3 — srednji lijevi krak */
+.cat3 { top: 130px; left: 0px; }
+
+/* 4 — srednji desni krak */
+.cat4 { top: 130px; right: 0px; }
+
+/* 5 — donji lijevi krak */
+.cat5 { top: 250px; left: 40px; }
+
+/* 6 — donji desni krak */
+.cat6 { top: 250px; right: 40px; }
+
+/* 7 — donji lijevi (drugi krak) */
+.cat7 { top: 330px; left: 120px; }
+
+/* 8 — donji desni (drugi krak) */
+.cat8 { top: 330px; right: 120px; }
+
