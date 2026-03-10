@@ -1,157 +1,63 @@
-/* ====== NASLOV ====== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.main-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* NASLOV IZNAD HOBOTNICE */
 .main-title {
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: #003366;
+    font-size: 48px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 10;
 }
 
-@media (max-width: 600px) {
-  .main-title {
-    font-size: 1.6rem;
-    margin-top: 10px;
-  }
-}
-
-/* ====== HOBOTNICA KONTEJNER ====== */
-.octopus-container {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  margin: 20px auto 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+/* HOBOTNICA */
 .octopus-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-/* ====== KUĆICE ====== */
-.arm {
-  position: absolute;
-  width: 120px;
-  min-height: 40px;
-  padding: 6px 10px;
-
-  background-color: rgba(0, 123, 255, 0.85);
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  border-radius: 10px;
-  border: 2px solid rgba(255,255,255,0.4);
-
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-
-  z-index: 2;
-
-  word-wrap: break-word;
-  white-space: normal;
-  overflow: hidden;
-
-  transition: 
-    transform 0.25s ease,
-    background-color 0.25s ease,
-    box-shadow 0.25s ease;
-}
-
-/* ====== HOVER EFEKT ====== */
-.arm:hover {
-  background-color: rgba(0, 140, 255, 0.95);
-  transform: scale(1.07) rotate(1.5deg);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.35);
-  cursor: pointer;
-}
-
-/* Linkovi unutar kućica */
-.arm a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-/* ====== POZICIONIRANJE — PORAVNATO UZ KRAKOVE ====== */
-
-/* DESNA STRANA — 1–4 */
-.arm.tentacle1 { top: 8%; right: -14%; transform: rotate(4deg); }
-.arm.tentacle2 { top: 32%; right: -17%; transform: rotate(2deg); }
-.arm.tentacle3 { top: 58%; right: -17%; transform: rotate(-2deg); }
-.arm.tentacle4 { bottom: 8%; right: -14%; transform: rotate(-4deg); }
-
-/* LIJEVA STRANA — 5–8 */
-.arm.tentacle5 { bottom: 8%; left: -14%; transform: rotate(4deg); }
-.arm.tentacle6 { top: 58%; left: -17%; transform: rotate(2deg); }
-.arm.tentacle7 { top: 32%; left: -17%; transform: rotate(-2deg); }
-.arm.tentacle8 { top: 8%; left: -14%; transform: rotate(-4deg); }
-
-/* ====== MOBITEL ====== */
-@media (max-width: 600px) {
-
-  .octopus-container {
     width: 300px;
-    height: 300px;
-    margin-top: 10px;
-  }
-
-  .arm {
-    width: 90px;
-    min-height: 30px;
-    font-size: 12px;
-    padding: 4px 6px;
-  }
-
-  /* DESNO 1–4 */
-  .arm.tentacle1 { top: 5%; right: -10%; transform: rotate(3deg); }
-  .arm.tentacle2 { top: 30%; right: -13%; transform: rotate(1deg); }
-  .arm.tentacle3 { top: 55%; right: -13%; transform: rotate(-1deg); }
-  .arm.tentacle4 { bottom: 5%; right: -10%; transform: rotate(-3deg); }
-
-  /* LIJEVO 5–8 */
-  .arm.tentacle5 { bottom: 5%; left: -10%; transform: rotate(3deg); }
-  .arm.tentacle6 { top: 55%; left: -13%; transform: rotate(1deg); }
-  .arm.tentacle7 { top: 30%; left: -13%; transform: rotate(-1deg); }
-  .arm.tentacle8 { top: 5%; left: -10%; transform: rotate(-3deg); }
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
 }
 
-/* ====== VELIKI ZASLON ====== */
-@media (min-width: 1024px) {
+/* KATEGORIJE */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
 
-  .octopus-container {
-    width: 500px;
-    height: 500px;
-  }
+.categories a {
+    display: block;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    border: 2px solid #ddd;
+    transition: 0.2s;
+}
 
-  .arm {
-    width: 140px;
-    min-height: 50px;
-    font-size: 16px;
-    padding: 8px 12px;
-  }
+.categories a:hover {
+    background: #e8e8e8;
+    border-color: #aaa;
+}
 
-  /* DESNO 1–4 */
-  .arm.tentacle1 { top: 8%; right: -16%; transform: rotate(5deg); }
-  .arm.tentacle2 { top: 32%; right: -20%; transform: rotate(2deg); }
-  .arm.tentacle3 { top: 58%; right: -20%; transform: rotate(-2deg); }
-  .arm.tentacle4 { bottom: 8%; right: -16%; transform: rotate(-5deg); }
-
-  /* LIJEVO 5–8 */
-  .arm.tentacle5 { bottom: 8%; left: -16%; transform: rotate(5deg); }
-  .arm.tentacle6 { top: 58%; left: -20%; transform: rotate(2deg); }
-  .arm.tentacle7 { top: 32%; left: -20%; transform: rotate(-2deg); }
-  .arm.tentacle8 { top: 8%; left: -16%; transform: rotate(-5deg); }
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    color: #666;
 }
