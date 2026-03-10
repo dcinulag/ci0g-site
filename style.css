@@ -75,56 +75,57 @@ body {
 }
 
 /* ————————————————
-   POZICIJE KUĆICA — VERZIJA 2
+   POZICIJE KUĆICA — VERZIJA 3
    ———————————————— */
 
 /* 1 — gornji lijevi krak */
 .cat1 {
-    top: 10px;
-    left: 8%;
+    top: 5px;
+    left: 14%;
 }
 
 /* 2 — gornji desni krak */
 .cat2 {
-    top: 10px;
-    right: 8%;
+    top: 5px;
+    right: 14%;
 }
 
 /* 3 — srednji lijevi krak */
 .cat3 {
-    top: 155px;
-    left: -4%;
+    top: 165px;
+    left: -2%;
 }
 
 /* 4 — srednji desni krak */
 .cat4 {
-    top: 155px;
-    right: -4%;
+    top: 165px;
+    right: -2%;
 }
 
 /* 5 — donji lijevi krak */
 .cat5 {
-    top: 295px;
-    left: 10%;
+    top: 305px;
+    left: 12%;
 }
 
 /* 6 — donji desni krak */
 .cat6 {
-    top: 295px;
-    right: 10%;
+    top: 305px;
+    right: 12%;
 }
 
 /* 7 — donji lijevi najdonji krak */
 .cat7 {
-    top: 395px;
-    left: 24%;
+    top: 405px;
+    left: 26%;
 }
 
 /* 8 — donji desni najdonji krak */
 .cat8 {
-    top: 395px;
-    right: 24%;
+    top: 405px;
+    right: 26%;
 }
+
 
 
 /* ————————————————
