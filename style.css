@@ -1,7 +1,3 @@
-/* ————————————————
-   GLOBALNI STIL
-   ———————————————— */
-
 body {
     margin: 0;
     padding: 0;
@@ -16,27 +12,19 @@ body {
     padding: 20px;
 }
 
-/* NASLOV */
 .main-title {
     font-size: 48px;
     margin-bottom: 20px;
-    position: relative;
-    z-index: 10;
 }
-
-/* ————————————————
-   OKVIR ZA HOBOTNICU + KUĆICE
-   ———————————————— */
 
 .octopus-wrapper {
     position: relative;
-    width: 900px;      /* dovoljno široko za krakove */
+    width: 600px;
     margin: 0 auto;
 }
 
-/* HOBOTNICA */
 .octopus-wrapper img {
-    width: 350px;
+    width: 320px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -44,16 +32,12 @@ body {
     z-index: 1;
 }
 
-/* ————————————————
-   KUĆICE OKO HOBOTNICE
-   ———————————————— */
-
 .categories {
     position: absolute;
     top: 0;
     left: 0;
-    width: 900px;      /* isti okvir kao octopus-wrapper */
-    height: 600px;     /* dovoljno prostora za sve krakove */
+    width: 600px;
+    height: 500px;
 }
 
 .categories a {
@@ -74,62 +58,17 @@ body {
     border-color: #999;
 }
 
-/* ————————————————
-   POZICIJE KUĆICA — FINALNA VERZIJA
-   ———————————————— */
+.cat1 { top: 0px; left: 20%; }
+.cat2 { top: 0px; right: 20%; }
 
-/* gornji lijevi krak */
-.cat1 {
-    top: 20px;
-    left: 32%;
-}
+.cat3 { top: 150px; left: 5%; }
+.cat4 { top: 150px; right: 5%; }
 
-/* gornji desni krak */
-.cat2 {
-    top: 20px;
-    right: 32%;
-}
+.cat5 { top: 280px; left: 15%; }
+.cat6 { top: 280px; right: 15%; }
 
-/* srednji lijevi krak */
-.cat3 {
-    top: 170px;
-    left: 18%;
-}
-
-/* srednji desni krak */
-.cat4 {
-    top: 170px;
-    right: 18%;
-}
-
-/* donji lijevi krak */
-.cat5 {
-    top: 320px;
-    left: 26%;
-}
-
-/* donji desni krak */
-.cat6 {
-    top: 320px;
-    right: 26%;
-}
-
-/* najdonji lijevi krak */
-.cat7 {
-    top: 460px;
-    left: 36%;
-}
-
-/* najdonji desni krak */
-.cat8 {
-    top: 460px;
-    right: 36%;
-}
-
-
-/* ————————————————
-   FOOTER
-   ———————————————— */
+.cat7 { top: 380px; left: 28%; }
+.cat8 { top: 380px; right: 28%; }
 
 footer {
     margin-top: 40px;
