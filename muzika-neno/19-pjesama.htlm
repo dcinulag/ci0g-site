@@ -1,1 +1,116 @@
 
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putopisac Neno – 19 pjesama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+ 
+</header>
+
+<main class="main-wrapper">
+
+    <article class="story">
+        <h2>19 pjesama</h2>
+
+        <p>Prije par mjeseci, na nekom od druženja sa prijateljima, izrodila se ideja da se na Staru godinu, kad se kao i svake godine nalazimo na Trgu i ispijamo kuhano vino, međusobno darivamo nosačem zvuka (CD) koji će sadržavati dvadesetak pjesama koje iz nekog razloga najviše tangiraju onoga koji ih je izabrao.</p>
+
+        <p>To bi trebao biti svojevrsni hommage vremenima kad smo dragim osobama snimali kompilacije na kasete. Nije bilo lako suziti izbor — priznajem da sam napravio par kompromisa nauštrb mojih omiljenih (pre)žestokih bendova, vodeći računa da ipak bude slušljivo za one kojima je namijenjeno.</p>
+
+        <p>Sinoć sam se zapio sa prijateljima poslije odličnog koncerta <em>Kamo Sutra</em> u Tvornici, jetra se još muči dok prerađuje alkohol. Iz kuhinje dopiru miomirisi pečenih krmenadli, a s linije dopiru milozvuci ove moje kompilacije. Eto, za dva sata idem na Trg podijeliti ove CD‑ove i dočekati tu jebenu novu 2012. godinu.</p>
+
+        <ol>
+            <li><strong>Stakleno Zvono – Volio Sam Jednu Malu</strong><br>
+                Singlica koja se morala vrtiti cijeli dan u stanu u Gajnicama kod tete Zdenke. Mislim da je to bilo u prvom osnovne, sredinom sedamdesetih.
+            </li>
+
+            <li><strong>Zdravko Čolić – Ti Živiš U Oblacima Mala</strong><br>
+                Čola je s Lokicama harao po Jugi. Njegov koncert u dvorani Mladost u Prijedoru bio je moj prvi muzičko‑scenski spektakl.
+            </li>
+
+            <li><strong>Bijelo Dugme – Izgledala Je Malo Čudno</strong><br>
+                Majka Marija donijela iz Banja Luke dvije LP ploče za naš novi gramofon Iskra. Dugme sam gledao u dvorani Mladost, u uniformama, u sklopu ORA‑e na Kozari.
+            </li>
+
+            <li><strong>Led Zeppelin – When The Levee Breaks</strong><br>
+                Poslije sam shvatio da su Bregović i Bebek oponašali Pagea i Planta. Starci su nam kupili Zeppeline i Floydove — početak ljubavi prema rocku.
+            </li>
+
+            <li><strong>Black Sabbath – N.I.B.</strong><br>
+                Teta Stana nam je poklonila izgrebane ploče Hendrixa i Sabbatha. Remetile su mir komšijama u ulici Moše Pijade.
+            </li>
+
+            <li><strong>Judas Priest – The Ripper</strong><br>
+                Gavran i ja vraćamo se zagrljeni iz diska na Šari i urlamo Rippera na očajnom engleskom.
+            </li>
+
+            <li><strong>Zabranjeno Pušenje – Djevojčice Kojima Miriše Koža</strong><br>
+                Birtija Obala pored Sane, prva votka, džuboks i beskonačno vrtimo ZP da ne slušamo narodnjake.
+            </li>
+
+            <li><strong>Atomsko Sklonište – Jučerašnje Sutra</strong><br>
+                Proročanski stihovi iz 1978. o kompjuterima i televizorima u WC‑u.
+            </li>
+
+            <li><strong>AC/DC – Touch Too Much</strong><br>
+                Highway to Hell — ploča koja je pomirila rockere i metalce.
+            </li>
+
+            <li><strong>Metallica – Sanitarium</strong><br>
+                Na fajrontu bih puštao Fade to Black ili Sanitarium. Koncert u Beču — ostvarenje dječačkih snova.
+            </li>
+
+            <li><strong>Partibrejkers – Mesečeva Kći</strong><br>
+                Bend koji sam gledao najviše puta. Dragim osobama nadjevao sam imena njihovih pjesama.
+            </li>
+
+            <li><strong>The Cult – Wild Flower</strong><br>
+                Pjesme koje su se vrtjele u svim klubovima, čak i onima koji nisu preferirali žestinu.
+            </li>
+
+            <li><strong>Bad Religion – Against The Grain</strong><br>
+                Od svih punk bendova, u zadnje vrijeme najviše slušam BR.
+            </li>
+
+            <li><strong>Anthrax – Antisocial</strong><br>
+                Podsjeća me na klubove u kojima sam čekao da puste nešto žešće. Riff caffe bio je ostvarenje snova.
+            </li>
+
+            <li><strong>Alice In Chains – Would?</strong><br>
+                Grunge faza, karirane košulje, Seattle scena.
+            </li>
+
+            <li><strong>Faith No More – Zombie Eaters</strong><br>
+                Koncert u Ljubljani — jedan od mojih top 5. Patton je najbolji frontman.
+            </li>
+
+            <li><strong>Suicidal Tendencies – Nobody Hears</strong><br>
+                Jedan od omiljenih HC bendova. Ljeto ’95, stopam prema Puli, Judita iz Polzele, Renault 4 i ST na kaseti.
+            </li>
+
+            <li><strong>Therapy? – Trigger Inside</strong><br>
+                Ludi Irci, nikad stadionski bend, ali uvijek odlični albumi.
+            </li>
+
+            <li><strong>RHCP – I Could Have Lied</strong><br>
+                U SKUC‑u je fajront označavala Under the Bridge, pa neka i moja kompilacija završi njihovom pjesmom. Karte za Hipodrom već kupljene.
+            </li>
+        </ol>
+
+    </article>
+
+    <a href="index.html">← Povratak na popis crtica</a>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Nenine crtice</p>
+</footer>
+
+</body>
+</html>
