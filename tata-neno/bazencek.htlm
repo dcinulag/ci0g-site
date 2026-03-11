@@ -1,1 +1,60 @@
 
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putopisac Neno – Bazenček</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Nesvrstani Neno</h1>
+</header>
+
+<main class="main-wrapper">
+
+    <article class="story">
+        <h2>Bazenček</h2>
+
+        <p>Koračamo Katja i ja uz ogradu Studentskog doma na Savi. Ubrzamo korak na brisanom sunčanom prostoru, usporimo kad naiđemo na kakav hladić. Netom je prošlo podne, sunce je upeklo. Pričam Katji kako uskoro završava školska godina i kako se studenti polako razdužuju i odlaze.</p>
+
+        <p>Vazda me uhvati sjeta kad se zateknem u ovo doba na ovom prostoru. Oproštajni tulumi na klupicama. U čajnim kuhinjama paviljona šarolika hrpa stvari nagomilanih tijekom godine koje će na kraju završiti na smetlištu.</p>
+
+        <p>Ovaj put ne skrećemo desno prema DIF‑u jer se Katjini gimnastički treninzi nastavljaju s dolaskom jeseni, nego produžavamo prema Sportskom parku Mladost. Na ulazu u bazene više od stotinu mladih ljudi.</p>
+
+        <p>A ja se ponadah da ćemo, s obzirom na to da su bazeni otvoreni tek u podne, imati malo mira dok rulja poslije ručka pohrli tražiti osvježenje. Pitam jednog dečka o čemu se radi i dobivam zadovoljavajući odgovor da gomila ima na zatvorenom bazenu prijemni ispit za DIF.</p>
+
+        <p>Zaobilazimo buduće studente DIF‑a, kupujemo karte i ulazimo na bazen.</p>
+
+        <p>Kupača je malo, bez problema nalazimo ležaljke i suncobrane i parkiramo ih uz rub bazena. Nekoliko puta lagano preplivavamo 25‑metarski bazen dubine malo veće od dva metra.</p>
+
+        <p>Prije tri dana smo se kupali u creskom moru i to je neusporedivo, ali ne mogu poreći da je kupanjac na Mladosti dobrodošlo osvježenje za vreli prvojulski dan.</p>
+
+        <p>Nije loše zavaljen u ležaljku pisati crtice i pijuckati pivo u predahu između malih bazenskih igara skakanja i ronjenja koje Katju čine sretnom. Dan bi mogao biti sasvim lijepo proveden. Sutra bih se mogao vratiti na posao, no mislim da ću to odgoditi za ponedjeljak.</p>
+
+        <p>I sve je bilo lijepo negdje do trojke. Uslijed pojačanog priljeva pučanstva koje je napučilo bazen naglo je splasnulo moje raspoloženje. U betoniranoj kloriranoj lokvi više se nije moglo normalno plivati.</p>
+
+        <p>Dvojac nadobudnih rekreativaca nije odustajao, neumorno su sjekli vodu plivajući slalom između kupača. Katji je bilo zanimljivo gledati nadmudrivanje redara i klinaca koji se prave važni pred curama.</p>
+
+        <p>Skakanje je zabranjeno, pa bi klinci izvodili svoje skokove vrebajući trenutak nepažnje redara. Zviždaljka se stalno oglašavala kao da smo na nekoj vaterpolskoj utakmici.</p>
+
+        <p>Većinu vremena Katja i ja provodimo u vodi uz rub bazena, čuvajući svoj dragocjeni metar kvadratni prostora. Pored nas jedan penzioner govori drugom:</p>
+
+        <p><em>— Mog’el sam ti ja ići na more, ali tu u bazenčeku je meni puno bolje.</em></p>
+
+        <p>Eto, prije par dana smo na valunskoj plaži uživali u razigranoj predstavi dupina, a danas moram gledati i slušati ova dva stara tuljana kako trabunjaju gluposti.</p>
+
+    </article>
+
+    <a href="index.html">← Povratak na popis nesvrstanih crtica</a>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Nenine crtice</p>
+</footer>
+
+</body>
+</html>
