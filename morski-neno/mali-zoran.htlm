@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putopisac Neno – Mali Zoran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Morski Neno</h1>
+</header>
+
+<main class="main-wrapper">
+
+    <article class="story">
+        <h2>Mali Zoran</h2>
+        <p><em>(Žuljana, 31.08.2011)</em></p>
+
+        <p>Neumitan prolazi zadnji sat zadnjega dana mjeseca augusta. Sjedim sam na terasi, gledam naizmjenično zvjezdano nebo i blago zatalasano more, povremeno usnama prinoseći čašu s plavcem od Skaramuče iz pelješkog sela Potomja u koje smo svratili na povratku s današnjeg izleta.</p>
+
+        <p>Ne volim piti sam, ali što mogu kad su svi moji sustanari otišli u krevet iscrpljeni nakon cjelodnevne posjete divnoj Divnoj. Da pišem pravopisno točno, ova druga Divna bi počinjala velikim slovom jer se tako naziva šljunčana plaža na suprotnoj strani Pelješca, okrenuta prema Hvaru.</p>
+
+        <p>Elem, uživali smo tamo u plivanju u kristalno čistom moru, ronili oko obližnjeg malog otoka, pijuckali pivo u baru na plaži. Kad bih se umorio od plivanja i igranja s djecom, čitao bih Kunderinu knjigu. Lijepo mi je bilo čitati Milana, tim više što je u našoj neposrednoj blizini bilo nekoliko čeških obitelji uz čije sam se melodične glasove potpuno uronio u svijet knjige.</p>
+
+        <p>Katja i Irma igraju se s dva mala terijera koji izgledaju navlas isto kao Dašenjka iz Čapekovih romana.</p>
+
+        <p>Na ovoj plaži bio sam tri, četiri puta. Prvi put prije devet godina s Njasom i Zokijem. Tada smo na povratku s Mljeta svratili u Trpanj i nekoliko dana otkrivali ljepote peljeških uvala. Od tada datira slika na kojoj Zoki pozira dok kroz kadar lagano prolazi njegov imenjak — brodić koji se zove <strong>Mali Zoran</strong>.</p>
+
+        <p>Jučer sam Katji pričao o toj slici. Bio sam uvjeren da će se taj brodić danas pojaviti. I pojavio se. Kao i prije devet godina, čak mi se čini u isto doba dana, iznenada se pojavio, prošao kroz uvalu i izgubio se u daljini.</p>
+
+        <p>Opet se to desilo u trenutku kad smo se odmarali na plaži, te sam ispustio urlik oduševljenja tako da su me Česi čudno pogledali. Skočio sam po fotoaparat i natjerao Zokija da ponovo pozira ispred imenjaka.</p>
+
+        <p>Još jedan déjà vu. Puno sam ih imao za ovog ljetovanja u Žuljani. Kad smo bili ovdje prije četiri godine, Katja je bila tako malena da je zaokupljala skoro svu našu pozornost i tada se nismo mogli potpuno opustiti. Sad je druga priča — Katja samostalno pliva, roni, skače u more… pa stignemo obratiti puno više pažnje pelješkim krasotama.</p>
+
+        <p>Već sam rekao da smo na povratku s Divne svratili do vinarije Skaramuča i kupili par litara vina koje sad pijuckam i nazdravljam mjesecu septembru koji je upravo počeo — i mojoj nećakinji Tonki koja danas slavi četvrti rođendan.</p>
+
+    </article>
+
+    <a href="index.html">← Povratak na popis morskih crtica</a>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Nenine crtice</p>
+</footer>
+
+</body>
+</html>
